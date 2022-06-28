@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+:root {
+
+  --primary-color: rgb(76, 78, 77);
+
+  --secondary-color: rgb(41, 43, 42);
+
+  --tertiary-color: #0fa36b;
+
+  --text-color: #ffe;
+
+  --border-default: 1px 1px 1px black;
+  font-family: Roboto, sans-serif;
+
+}
+
+body {
+  background-color: var(--tertiary-color);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+}
+
+/* Tela de login */
+.main-container {
+  align-items: center;
+  background-color: var(--tertiary-color);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+
+.login-form {
+  align-items: center;
+  background-color: white;
+  border-radius: 2em;
+  box-shadow: var(--border-default);
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  padding: 3em 4em;
+  width: 30vw;
+}
+
+.input-login {
+  border: none;
+  border-bottom: 1px dashed black;
+  height: 2em;
+}
+
+.input-login::placeholder {
+  color: black;
+  font-size: medium;
+}
+
+.btn {
+  border: none;
+  border-radius: 1em;
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.login-button {
+  background-color: black;
+  border: 1px solid black;
+  box-shadow: var(--border-default);
+  padding: 1em 4em;
+}
+
+.login-button:enabled {
+  background-color: var(--tertiary-color);
+}
+
+.wallet-logo {
+  margin-right: 1em;
+  width: 3em;
+}
+
+/* Componente Header */
+.header-container {
+  align-items: center;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 3em;
+}
+
+.logo-header-container {
+  align-items: center;
+  display: flex;
+  gap: 1em;
+}
+
+.header-title span {
+  color: green;
+}
+
+.user-header-container {
+  align-items: center;
+  display: flex;
+  gap: 1em;
+}
+
+.user-header-container img {
+  width: 2em;
+}
+
+.total-currency {
+  align-items: center;
+  display: flex;
+}
+
+/* Componente Form */
+.form-wallet {
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+  display: flex;
+  justify-content: space-around;
+  padding: 2em 3em;
+}
+
+.form-wallet label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.input-form {
+  border: none;
+  font-size: medium;
+
+  /* border-bottom: 1px dashed black; */
+  height: 2em;
+  padding-left: 1em;
+}
+
+.input-form::placeholder {
+  color: black;
+  font-size: medium;
+}
+
+.input-select {
+  color: var(--tertiary-color);
+  font-size: medium;
+  height: 2em;
+}
+
+.form-button {
+  background-color: var(--secondary-color);
+  border: 1px solid black;
+  box-shadow: var(--border-default);
+  padding: 1em 2em;
+}
+
+.form-button:enabled {
+  background-color: var(--tertiary-color);
+}
+
+/* Componente Table */
+.table-container {
+  text-align: center;
+  width: 100vw;
+}
+
+.table-container th {
+  background-color: black;
+  color: var(--text-color);
+  line-height: 1.8rem;
+}
+
+.table-container td {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-size: medium;
+  line-height: 1.8rem;
+}
+
+.table-button {
+  margin: 0.5em;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { addEmailGlobal } from '../actions';
+import { addEmailGlobal } from '../redux/actions';
 import walletLogo from '../img/wallet-figure.png';
 
 class Login extends React.Component {

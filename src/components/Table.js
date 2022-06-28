@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { connect } from 'react-redux';
-import { editExpense, removeExpense } from '../actions';
+import { editExpense, removeExpense } from '../redux/actions';
 
 class Table extends React.Component {
   removeItem = (id) => {

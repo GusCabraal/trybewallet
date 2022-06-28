@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { connect } from 'react-redux';
-import { fetchCurrencies, sendExpensesToState, sendEditToGlobal } from '../actions';
+import { fetchCurrencies, sendExpensesToState, sendEditToGlobal } from '../redux/actions';
 
 const INITIAL_STATE = {
   value: '',

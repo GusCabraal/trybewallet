@@ -61,6 +61,7 @@ class Form extends React.Component {
     delete estadoFiltrado.exchangeRates;
     const novaDespesa = { ...expenseToEdit, ...estadoFiltrado };
     dispatch(sendEditToGlobal(novaDespesa));
+    this.setState({...INITIAL_STATE})
   };
 
   render() {

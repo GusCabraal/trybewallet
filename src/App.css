@@ -54,6 +54,7 @@ body {
   border: none;
   border-bottom: 1px dashed black;
   height: 2em;
+  font-size: medium;
 }
 
 .input-login::placeholder {

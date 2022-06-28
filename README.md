@@ -8,5 +8,3 @@ Esse projeto é uma carteira de controle de gastos com conversor de moedas, ao u
 Essa aplicação foi feita com React JS para construir a interface, redux para gerenciar o estado global da aplicação, uma API de Cotações para realizar a busca de câmbio de moedas e CSS puro (Próximos projetos serão desenvolvidos com algum framework) para estilização dos elementos.
 
 Projeto desenvolvido em junho de 2022.
-
-A aplicação pode ser conferida no seguinte [link]()

@@ -141,8 +141,6 @@ body {
 .input-form {
   border: none;
   font-size: medium;
-
-  /* border-bottom: 1px dashed black; */
   height: 2em;
   padding-left: 1em;
 }
@@ -153,7 +151,6 @@ body {
 }
 
 .input-select {
-  color: var(--tertiary-color);
   font-size: medium;
   height: 2em;
 }

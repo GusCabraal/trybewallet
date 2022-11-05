@@ -1,6 +1,6 @@
 # Projeto Trybewallet
 
-Esse projeto foi realizado durante o Modulo de Front-end na seção 7 da formação da Trybe em junho de 2022.
+Blogs API foi o 14° projeto realizado durante a formação da Trybe. Esse projeto pertence a seção 7 do Modulo de Front-end e foi desenvolvido em junho de 2022.
 
 ## O que foi desenvolvido
 
